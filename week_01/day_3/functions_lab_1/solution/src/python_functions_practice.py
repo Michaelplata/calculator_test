@@ -42,12 +42,15 @@ def volume_of_cube(length_of_side):
     return length_of_side ** 3
 
 def string_reverse(str):
-    string_reversed = ''
-    index = len(str)
-    while index > 0:
-        string_reversed += str[ index - 1 ]
-        index = index - 1
-    return string_reversed
+    # string_reversed = ''
+    # index = len(str)
+    # while index > 0:
+    #     string_reversed += str[ index - 1 ]
+    #     index = index - 1
+    # return string_reversed
+    return "".join(reversed(str))
+
+    
 
 def fahrenheit_to_celsius(fahrenheit):
     celsius = (fahrenheit - 32) * (5.0/9.0)
