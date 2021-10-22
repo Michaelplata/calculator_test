@@ -1,7 +1,7 @@
-# Python built-in functions
+# Python's built-in functions
 
 
-In this lesson we will have a look at some of Python built-in functions that will simplify our code making it cleaner, easier to read and in same scenarios, even faster.
+In this lesson we will have a look at some of Python built-in functions that will simplify our code making it cleaner, easier to read and in some scenarios, even faster.
 
 ### any()
 
@@ -17,7 +17,7 @@ any(iterable)
 **Example**
 
 ```Python
-boolean_list = ['True', 'False', 'True']
+boolean_list = [True, False, True]
 
 # check if any element is true
 result = any(boolean_list)
@@ -187,7 +187,7 @@ numbers = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 def is_even(number):
     return number % 2 == 0
 
-# Extract elements from the numbers list for which check_even() returns True
+# Extract elements from the numbers list for which is_even() returns True
 even_numbers_result = filter(is_even, numbers)
 print(even_numbers_result)
 
