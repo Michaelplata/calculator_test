@@ -15,8 +15,8 @@ Composition and Aggregation are concepts in OOP that describes the relationship 
 
 There is a subtle difference between composition and aggregation.
 
-X "owns" Y = Composition: Y has no meaning or purpose in the system without X
-X "uses" Y = Aggregation: Y exists independently from X
+- X "owns" Y = Composition: Y has no meaning or purpose in the system without X
+- X "uses" Y = Aggregation: Y exists independently from X
 
 Often these terms are used synonymously. We'll refer to it as **COMPOSITION**
 
