@@ -7,16 +7,20 @@
 - Understand the relationship between multiple classes
 - Know how to use composition to design a program
 
-## What is Composition?
+# Intro
 
-Composition is one of the fundamentals of OOP (Object Oriented Programming).
+Composition and Aggregation are concepts in OOP that describes the relationship between two or more classes. In composition and aggregation, a class has an instance variable that refers to the object of another class.
 
-As we've seen, properties of classes can be simple Strings and Integers but they are not limited to this. They can also be Lists or Dictionaries and they can even be assigned to other objects.
+# Composition versus Aggregation
 
-When a property is set to another object we call this a HAS-A relationship. If we have a class named ```Car``` and it has a property of an ```Engine``` we say the ```Car``` has an ```Engine```.
+There is a subtle difference between composition and aggregation.
 
-When there is a HAS-A relationship, we call this ```composition```. The ```Car``` is composed of an ```Engine```. And maybe it also has a ```GearBox``` object as one of its properties. Then the ```Car``` is composed of an ```Engine``` and a ```GearBox```.
+X "owns" Y = Composition: Y has no meaning or purpose in the system without X
+X "uses" Y = Aggregation: Y exists independently from X
 
+Often these terms are used synonymously. We'll refer to it as **COMPOSITION**
+
+A car __HAS__ an engine, a car __HAS__ a gearbox. So our car is made up of, or ***COMPOSED*** of other objects, each with their own state and behaviour.
 ## So What's the Big Deal?
 
 It's an elegant way of giving an object additional behaviour!
