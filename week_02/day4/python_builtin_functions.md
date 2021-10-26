@@ -260,7 +260,8 @@ The **slice()** function returns a _slice object_ that is used to slice any sequ
 ```Python
 slice(start, stop, step)
 ```
->- start (optional) - int value where the slicing of the object starts. Default None.
+>
+- start (optional) - int value where the slicing of the object starts. Default None.
 - stop - int value until which the slicing takes place. The slicing stops at last element.
 - step (optional) - int value which determines the increment between each index for slicing. Default None.
 
