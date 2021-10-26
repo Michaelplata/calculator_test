@@ -1,7 +1,5 @@
 # Testing with Python
 
-**Lesson Duration: 30 minutes**
-
 ### Learning Objectives
 
 - Know what a test is
